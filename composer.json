@@ -1,6 +1,6 @@
 {
-    "name": "api-platform/core",
-    "description": "Build a fully-featured hypermedia or GraphQL API in minutes!",
+    "name": "cmnemoi/api-platform-core",
+    "description": "Fork of API Platform to make the 2.7 version working with latest Symfony 6.4 versions",
     "type": "library",
     "keywords": ["REST", "GraphQL", "API", "JSON-LD", "Hydra", "JSONAPI", "OpenAPI", "HAL", "Swagger"],
     "homepage": "https://api-platform.com",

@@ -490,7 +490,7 @@ abstract class AbstractItemNormalizer extends AbstractObjectNormalizer
     /**
      * @return array|bool
      */
-    protected function getAllowedAttributes($classOrObject, array $context, $attributesAsString = false)
+    protected function getAllowedAttributes($classOrObject, array $context, $attributesAsString = false): array|bool
     {
         if (!$this->resourceClassResolver->isResourceClass($context['resource_class'])) {
             return parent::getAllowedAttributes($classOrObject, $context, $attributesAsString);
